@@ -9,10 +9,10 @@
 |-------|-------|
 | Stage | 0 — Foundations & Big Picture |
 | Step | **0.1 — The big picture: architecture & request flows** |
-| Status | ⬜ Not started |
+| Status | 🟨 In progress |
 | Steps done | 0 / 50 |
 | Last updated | 2026-10-26 |
-| Next action | Start lesson 0.1 |
+| Next action | Read lesson 0.1, do the trace exercise (T1–T4), confirm to mark ✅ |
 
 **Legend:** ⬜ Not started · 🟨 In progress · ✅ Done · ⏭️ Skipped · 🔁 Needs revisit
 
@@ -27,7 +27,8 @@ flowchart LR
     classDef todo fill:#eee,stroke:#999,color:#333
     classDef doing fill:#fff3c4,stroke:#d4a000,color:#333
     classDef done fill:#d4f7d4,stroke:#2e8b57,color:#333
-    class S0,S1,S2,S3,S4,S5,S6,S7,S8,S9,S10 todo
+    class S0 doing
+    class S1,S2,S3,S4,S5,S6,S7,S8,S9,S10 todo
 ```
 *(The tutor recolors nodes as stages progress: `todo` → `doing` → `done`.)*
 
@@ -35,7 +36,7 @@ flowchart LR
 
 | # | Stage | Steps | Done | Status |
 |---|-------|-------|------|--------|
-| 0 | Foundations & Big Picture | 4 | 0 | ⬜ |
+| 0 | Foundations & Big Picture | 4 | 0 | 🟨 |
 | 1 | Backend Foundation | 4 | 0 | ⬜ |
 | 2 | AI Provider Layer | 4 | 0 | ⬜ |
 | 3 | RAG Knowledge Base | 7 | 0 | ⬜ |
@@ -50,12 +51,12 @@ flowchart LR
 
 ---
 
-## Stage 0 — Foundations & Big Picture ⬜
+## Stage 0 — Foundations & Big Picture 🟨
 *Understand what we build and why, set up the project and local infrastructure.*
 
 | Step | Title | Status | Lesson | Done on |
 |------|-------|--------|--------|---------|
-| 0.1 | The big picture: architecture & request flows | ⬜ | [lesson](lessons/stage-00-foundations/0.1-big-picture.md) | |
+| 0.1 | The big picture: architecture & request flows | 🟨 | [lesson](lessons/stage-00-foundations/0.1-big-picture.md) | |
 | 0.2 | AI concepts for engineers: LLM, tokens, embeddings, RAG, tool calling | ⬜ | [lesson](lessons/stage-00-foundations/0.2-ai-concepts.md) | |
 | 0.3 | Project skeleton: uv, FastAPI, settings, folder layout | ⬜ | [lesson](lessons/stage-00-foundations/0.3-project-skeleton.md) | |
 | 0.4 | Local infrastructure with Docker Compose (Postgres+pgvector, Redis, Mailpit) | ⬜ | [lesson](lessons/stage-00-foundations/0.4-local-infrastructure.md) | |
